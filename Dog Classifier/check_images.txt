@@ -1,0 +1,42 @@
+Questions regarding Uploaded Image Classification:
+
+1. Did the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed? If not, report the differences in the classifications.
+
+Answer: Yes, all three CNN model architectures have classified it under eskimo dog, husky which is correct as the dog in the image is a husky.
+
+
+2. Did each of the three model architectures classify the breed of dog in Dog_01.jpg to be the same breed of dog as that model architecture classified Dog_02.jpg? If not, report the differences in the classifications.
+
+Answer: Yes, all three model architectures have classified the breed of dog in Dog_02.jpg to be the same as Dog_01.jpg which is a husky.
+
+
+3. Did the three model architectures correctly classify Animal_Name_01.jpg and Object_Name_01.jpg to not be dogs? If not, report the misclassifications.
+
+Answer: Yes, all three model architectures have correctly classified Panda_01.jpg and Pineapple_01.jpg to not be dogs.
+
+
+4. Based upon your answers for questions 1. - 3. above, select the model architecture that you feel did the best at classifying the four uploaded images. Describe why you selected that model architecture as the best on uploaded image classification.
+
+Answer: All three model architecture were able to correctly classify all the uploaded images. The result of matching labels, correct dogs classified, correct dog breeds classified and correct not dogs classified are all 100.0% for all three model
+architecture. Thus, the best model architecture according to classifying uploaded images is hard to determine but the best model architecture for classifying pet images is VGG. This is because compared to RESNET and ALEXNET, VGG has scored the
+highest percentage in all categories. As shown as below are the statistics summary:
+
+VGG:
+pct_match: 87.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 93.3
+pct_correct_notdogs: 100.0
+
+RESNET:
+pct_match: 82.5
+pct_correct_dogs: 100.0
+pct_correct_breed: 90.0
+pct_correct_notdogs: 90.0
+
+ALEXNET:
+pct_match: 75.0
+pct_correct_dogs: 100.0
+pct_correct_breed: 80.0
+pct_correct_notdogs: 100.0
+
+Hence, this shows that VGG is the best model architecture out of the three.
